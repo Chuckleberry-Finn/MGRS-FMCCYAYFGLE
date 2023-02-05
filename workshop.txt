@@ -1,0 +1,12 @@
+version=1
+id=2928660831
+title=Military Grid Reference System For Map Callouts Cause You And Your Friends Get Lost Easily
+description=A military grid reference system so you and your friends can make map call outs.
+description=
+description=Commissioned by: [i]BowlOfOodaLoops[/i]
+description=
+description=[img]https://i.imgur.com/p7Fv1Z6.gif[/img]
+description=
+description=[url=https://ko-fi.com/chuckleberryfinn][img]https://i.imgur.com/GxZ38nz.png[/img] [b]Consider supporting Chuck![/b][/url] [url=https://www.patreon.com/bePatron?u=17239488][img]https://raw.githubusercontent.com/ChuckTheSheep/Vanilla-Weapons-Expanded/main/Contents/mods/VanillaWeaponsExpanded/patreon/Patreon%20Logo.png[/img][/url]
+tags=Build 41;Interface;Map;Misc;Multiplayer
+visibility=public
