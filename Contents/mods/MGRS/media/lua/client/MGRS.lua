@@ -1,9 +1,26 @@
 require "ISUI/Maps/ISWorldMap"
+
 local ISWorldMap_ShowWorldMap = ISWorldMap.ShowWorldMap
 function ISWorldMap.ShowWorldMap(playerNum)
     ISWorldMap_ShowWorldMap(playerNum)
     if ISWorldMap_instance then ISWorldMap_instance:setShowCellGrid(true) end
 end
+
+
+local WorldMapOptions_getVisibleOptions = WorldMapOptions.getVisibleOptions
+function WorldMapOptions:getVisibleOptions()
+    local result = WorldMapOptions_getVisibleOptions(self)
+    if self.showAllOptions then return result end
+
+    for i=1,self.map.mapAPI:getOptionCount() do
+        local option = self.map.mapAPI:getOptionByIndex(i-1)
+        if option:getName() == "CellGrid" then
+            table.insert(result, option)
+        end
+    end
+    return result
+end
+
 
 local function numToAlpha(n)
     local looped = math.floor((n-1)/26)
@@ -11,6 +28,7 @@ local function numToAlpha(n)
     local alpha = string.char(n-(looped*26)+96)
     return (prefix..alpha)
 end
+
 
 local ISWorldMap_render = ISWorldMap.render
 function ISWorldMap:render()
@@ -20,6 +38,7 @@ function ISWorldMap:render()
         self:drawText(gridID, x+30, y+30, 0.1, 0.1, 0.1, 1, UIFont.Title)
     end
 end
+
 
 local ISWorldMap_onMouseMove = ISWorldMap.onMouseMove
 function ISWorldMap:onMouseMove(dx, dy)
