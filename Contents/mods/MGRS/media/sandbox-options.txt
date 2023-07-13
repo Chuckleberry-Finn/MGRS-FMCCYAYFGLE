@@ -1,0 +1,7 @@
+VERSION = 1,
+
+option MGRS.style {
+    type = enum, numValues = 2, default = 1,
+    page = MGRS, translation = MGRS_style,
+ 	valueTranslation = MGRS_styleChoices,
+ }

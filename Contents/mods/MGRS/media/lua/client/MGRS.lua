@@ -55,7 +55,13 @@ function ISWorldMap:onMouseMove(dx, dy)
         local cellX = math.floor(worldX/300)+1
         local cellY = math.floor(worldY/300)+1
 
-        local gridID = string.upper(numToAlpha(cellX)..cellY)
+        local deliminator = "-"
+        if SandboxVars.MGRS.style ~= 2 then
+            cellX = numToAlpha(cellX)
+            deliminator = ""
+        end
+
+        local gridID = string.upper(cellX..deliminator..cellY)
         self.currentGridID = {gridID, mouseX, mouseY}
     else
         self.currentGridID = nil
