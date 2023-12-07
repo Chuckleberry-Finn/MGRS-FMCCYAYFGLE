@@ -1,4 +1,5 @@
 require "ISUI/Maps/ISWorldMap"
+local util = require "MGRS_util"
 
 local ISWorldMap_ShowWorldMap = ISWorldMap.ShowWorldMap
 function ISWorldMap.ShowWorldMap(playerNum)
@@ -19,14 +20,6 @@ function WorldMapOptions:getVisibleOptions()
         end
     end
     return result
-end
-
-
-local function numToAlpha(n)
-    local looped = math.floor((n-1)/26)
-    local prefix = looped>0 and string.char(looped+96) or ""
-    local alpha = string.char(n-(looped*26)+96)
-    return (prefix..alpha)
 end
 
 
@@ -51,17 +44,7 @@ function ISWorldMap:onMouseMove(dx, dy)
     local worldY = self.mapAPI:uiToWorldY(mouseX, mouseY)
 
     if getWorld():getMetaGrid():isValidSquare(worldX,worldY) then
-
-        local cellX = math.floor(worldX/300)+1
-        local cellY = math.floor(worldY/300)+1
-
-        local deliminator = "-"
-        if SandboxVars.MGRS.style ~= 2 then
-            cellX = numToAlpha(cellX)
-            deliminator = ""
-        end
-
-        local gridID = string.upper(cellX..deliminator..cellY)
+        local gridID = util.xyToLabel(worldX, worldY)
         self.currentGridID = {gridID, mouseX, mouseY}
     else
         self.currentGridID = nil
