@@ -1,0 +1,5 @@
+[ 8/30/24 ]
+Added new Alpha-Alpha Option
+Added toggle to mod (with cell-grid visibility)
+Cell-Grid visibility is now saved.
+[ ------ ]
