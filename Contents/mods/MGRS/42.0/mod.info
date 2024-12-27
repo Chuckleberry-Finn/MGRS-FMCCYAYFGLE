@@ -1,0 +1,9 @@
+name=Military Grid Reference System For Map Callouts Cause You And Your Friends Get Lost Easily
+id=MGRS (FMCCYAYFGLE)
+description=A military grid reference system so you and your friends can make map call outs.
+poster=poster.png
+author=Chuckleberry Finn
+icon=icon.png
+versionMin=42.0
+require=\ChuckleberryFinnAlertSystem,\errorMagnifier,
+

@@ -1,0 +1,7 @@
+Sandbox_EN = {
+    Sandbox_MGRS = "Military Grid Reference System (FMCCYAYFGLE)",
+    Sandbox_MGRS_style = "Grid Style",
+    Sandbox_MGRS_styleChoices_option1 = "Alpha-Numeric",
+    Sandbox_MGRS_styleChoices_option2 = "Numeric-Numeric",
+    Sandbox_MGRS_styleChoices_option3 = "Alpha-Alpha",
+}
