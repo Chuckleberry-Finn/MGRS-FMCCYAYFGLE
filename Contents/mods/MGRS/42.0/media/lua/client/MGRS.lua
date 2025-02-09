@@ -2,8 +2,8 @@ require "ISUI/Maps/ISWorldMap"
 local util = require "MGRS_util"
 
 local ISWorldMap_ShowWorldMap = ISWorldMap.ShowWorldMap
-function ISWorldMap.ShowWorldMap(playerNum)
-    ISWorldMap_ShowWorldMap(playerNum)
+function ISWorldMap.ShowWorldMap(playerNum, centerX, centerY, zoom)
+    ISWorldMap_ShowWorldMap(playerNum, centerX, centerY, zoom)
     --if ISWorldMap_instance then ISWorldMap_instance:setShowCellGrid(true) end
 end
 
