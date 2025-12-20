@@ -11,3 +11,7 @@ B42 Update.
 [ 2/9/25 ]
 - Fix issue with fliers not pointing to their shown location.
 [ ------ ]
+
+[ 12/19/25 ]
+- Tested on B42.13 with no apparent issues.
+[ ------ ]
