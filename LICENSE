@@ -1,0 +1,112 @@
+CHUCK (CHUCKLEBERRY FINN) LICENSE
+Version 1, 27 December 2025
+Copyright (c) 2025 Chuck (Chuckleberry Finn)
+
+====================================================================
+
+SCOPE
+-----
+
+This mod, including but not limited to its code, scripts, textures,
+models, sounds, music, animations, configuration files, and any other
+bundled assets ("the Mod"), is provided solely for PERSONAL,
+NON-COMMERCIAL USE within Project Zomboid.
+
+This license applies ONLY to original work(s) and content created by
+the author(s) of the Mod.
+
+====================================================================
+
+PERMISSIONS
+-----------
+
+You MAY create and distribute patches, translations, compatibility
+layers, or addons ONLY if ALL of the following conditions are met:
+
+1. Dependency Requirement
+   Your work MUST require the unmodified original Mod to be installed
+   and functional and MUST NOT operate independently.
+
+2. No Asset Redistribution
+   Your work MUST NOT include, bundle, or redistribute any files from
+   the original Mod, including but not limited to code, art assets,
+   models, textures, sounds, music, or animations.
+
+   Exception: Minimal, non-substitutable data strictly necessary for
+   interoperability (e.g., translation string tables or lightweight
+   compatibility configuration files).
+
+3. Attribution
+   Your release MUST clearly credit the original author(s) and include
+   a visible link to the official download page of the original Mod in
+   its public description.
+
+====================================================================
+
+RESTRICTIONS
+------------
+
+You MAY NOT:
+
+1. Redistribute this Mod, in whole or in part, on any platform or
+   service without prior written permission from the author(s).
+
+2. Extract, reuse, modify, or repurpose any portion of the Mod’s code
+   or assets for use in other projects or standalone mods.
+
+3. Create derivative works that can function without the original Mod
+   installed and intact.
+
+4. Use this Mod or any part of it for commercial purposes, including
+   but not limited to paid mods, monetized servers, donation-locked
+   features, or content packs.
+
+5. Use this Mod or any portion of it in the training, fine-tuning,
+   evaluation, or operation of machine learning, artificial
+   intelligence, or neural network systems, whether commercial or
+   non-commercial.
+
+6. Remove, obscure, or alter copyright notices, author attributions,
+   or license references contained within the Mod.
+
+====================================================================
+
+THIRD-PARTY MATERIALS & FAIR USE NOTICE
+--------------------------------------
+
+This Mod may contain references to, depictions of, or materials derived
+from third-party copyrighted works not owned by the author(s).
+
+All such materials remain the property of their respective copyright
+holders. No ownership, license, or reuse rights to third-party
+materials are granted under this license.
+
+Any inclusion of third-party material is intended to be lawful,
+transformative, and consistent with applicable copyright exceptions
+(such as fair use), or is otherwise used with permission or under an
+applicable license.
+
+====================================================================
+
+RESERVATION OF RIGHTS
+--------------------
+
+All rights not expressly granted by this license are reserved by the
+author(s).
+
+====================================================================
+
+TERMINATION
+-----------
+
+Any violation of this license automatically terminates the permissions
+granted herein until the violation is resolved to the satisfaction of
+the author(s).
+
+====================================================================
+
+DISCLAIMER
+----------
+
+THIS MOD IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED.
